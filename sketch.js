@@ -28,7 +28,7 @@ function setup(){
 
     hexagon = new Hexagon(200,50);
 
-    slingshot = new SlingShot(hexagon.body,{x:190, y:300});
+    slingshot = new SlingShot(hexagon.body,{x:50, y:300});
 }
 
 function draw(){
